@@ -51,14 +51,15 @@ int main()
     cout <<left<< setw(30)<<"CPF Marks after cpf--"
     << cpf<<endl;
     
-    
+    <<endl;
 
     //display repport
     
     result= ++cpf + cpf++ + --maths + ++maths - maths--;
     cout <<left<< setw(30)<<"Result : ++cpf + cpf++ + --maths + ++maths - maths-- ="
-    << result<<endl;
+   <<endl;
 
+    cout<<"Result = "<<result<<endl;
    
      cout <<left<< setw(30)<<"Maths Marks after Evaluation"
     << maths <<endl;
