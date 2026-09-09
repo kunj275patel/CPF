@@ -15,7 +15,7 @@ int main(){
 
     int arr1[100];
 
-    cout<<"\nEnter element in sorted order : ";
+    cout<<"\nEnter element in sorted order : \n";
 
     for(int i=0; i<n1; i++)
     {
@@ -29,7 +29,7 @@ int main(){
     int arr2[100];
     cout<<"\nEnter element in sorted order : \n";
 
-    for(int j=0; j<n1; j++)
+    for(int j=0; j<n2; j++)
     {
         cin>> arr2[j];
     }
@@ -79,9 +79,9 @@ int main(){
 
     cout<<"\nSecond Array\n";
 
-    for(int i =0; i<n1; i++)
+    for(int j =0; j<n2; j++)
     {
-        cout<< arr2[i] <<" ";
+        cout<< arr2[j] <<" ";
     }
 
     cout<<endl<<"--------------------------------------------------------------------------"<<endl;
